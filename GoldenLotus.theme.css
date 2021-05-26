@@ -1,8 +1,8 @@
 /**
- * @name ClearVision
- * @author ClearVision Team
- * @version 6.1.0
- * @description Highly customizable theme for BetterDiscord.
+ * @name GoldenLotus
+ * @author RBeckmann
+ * @version 1.1
+ * @description Based on ClearVision by ClearVision Team. Highly customizable theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://clearvision.gitlab.io
  * @invite dHaSxn3
@@ -17,15 +17,15 @@
 :root {
 
 	/* ACCENT COLORS */
-	--main-color: #cc7e09; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-	--hover-color: #cc7e09; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-	--success-color: #03c703; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+	--main-color: #ffb100; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+	--hover-color:  #ffb200; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+	--success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
 	--danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
 	
 	/* Customization Patch */
-	--channel-unread: #fff000; /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-	--channel-color:  rgb(249, 185, 63, 1); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
-	--channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
+	--channel-unread: #ff6600; /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+	--channel-color:  #ffd20c; /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+	--channel-text-selected:#000000; /* Selected channel text color, CV default is #fff */
 	--muted-color: rgba(255,255,255,0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 	--url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/     
 
@@ -41,8 +41,8 @@
 	--code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
 	--text-normal: rgb(220, 221, 222); /* color of default discord text */
 	--text-muted:  rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
-	--channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
-	--members-width: 260px; /* member list width [default: 240px] */
+	--channels-width: 240px; /* channel list width (240px for Discord default) [default: 220px] */
+	--members-width: 20px; /* member list width [default: 240px] */
 
 	/* APP BACKGROUND */
 	--background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
@@ -58,7 +58,7 @@
 	--background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
 	--background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
 	--background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
-	--background-blur: 2px; /* app background blur [default: 0px] */
+	--background-blur: 3px; /* app background blur [default: 0px] */
 	
 	/* HOME BUTTON ICON */
 	--home-icon: url(<a href="https://imgbb.com/"><img src="https://i.ibb.co/7gdvGXH/L-tus-Dourado-removebg-preview.png" alt="L-tus-Dourado-removebg-preview" border="0"></a>); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
@@ -95,7 +95,7 @@
 	--user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
 	
 	/* USER MODAL BACKGROUND */
-	--user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(---background-image)] */
+	--user-modal-image: url(https://i.imgur.com/IATb70T.png); /* app background image (link must be HTTPS) [default: var(---background-image)] */
 	--user-modal-position: var(--background-position); /* user modal background position [default: var(---background-position)] */
 	--user-modal-size: var(--background-size); /* user modal background size [default: var(---background-size)] */
 	--user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(---background-repeat)] */
@@ -103,7 +103,7 @@
 	--user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
 	--user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(---background-contrast)] */
 	--user-modal-saturation: var(---background-saturation); /* user modal background saturation [default: var(---background-saturation)] */
-	--user-modal-invert: 100%; /* user modal background invert (0 - 100%) [default: var(---background-invert)] */
+	--user-modal-invert: (100%); /* user modal background invert (0 - 100%) [default: var(---background-invert)] */
 	--user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(---background-grayscale)] */
 	--user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(---background-sepia)] */
 	--user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
